@@ -1,0 +1,83 @@
+:root {
+    --color-up-down: #315949;
+    --color-main: #70D8B0;
+    --color-navbar:#282C34;
+}
+
+body {
+    font-family: 'Kaisei Opti', serif;
+}
+
+.color-up-down  {
+    background-color: var(--color-up-down);
+    
+}
+
+.color-main  {
+    background-color: var(--color-main);
+    
+}
+.subcontainer-up{
+    display: inline;
+}
+
+#selectionPokemon {
+    border-radius: 15px;
+    width: 65%;
+    line-height: 1;
+} 
+
+figure img {
+    width: 175px;
+    height: 175px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+.btn-left {
+    margin-right: 15px;
+}
+
+.btn-right{
+    margin-right: 50px;
+}
+
+a img {
+    width: 100px;
+    height: 50px;
+}
+
+.color-nav {
+    background-color: var(--color-navbar);
+}
+
+#nav-ul .nav-item-color {
+    color: white;
+    font-size: 1.1rem;
+}
+
+
+
+@media (max-width: 768px){
+    .container-up {
+        height: 200px;
+    }
+    .container-down {
+        height: 200px;
+    }
+    .container-main {
+        height: 325px;
+    }
+
+    .galar {
+        border-bottom: 2px solid white;
+    }
+   
+}
+
+@media (min-width: 768px){
+.container-dropdown{
+    display: none;
+}
+}
