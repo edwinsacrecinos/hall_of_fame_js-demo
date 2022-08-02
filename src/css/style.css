@@ -1,7 +1,7 @@
 :root {
     --color-up-down: #315949;
     --color-main: #70D8B0;
-    --color-navbar:#282C34;
+    --color-navbar: #282C34;
 }
 
 body {
@@ -9,16 +9,17 @@ body {
     overflow-x: hidden;
 }
 
-.color-up-down  {
+.color-up-down {
     background-color: var(--color-up-down);
-    
+
 }
 
-.color-main  {
+.color-main {
     background-color: var(--color-main);
-    
+
 }
-.subcontainer-up{
+
+.subcontainer-up {
     display: inline;
 }
 
@@ -26,7 +27,7 @@ body {
     border-radius: 15px;
     width: 65%;
     line-height: 1;
-} 
+}
 
 figure img {
     width: 175px;
@@ -40,7 +41,7 @@ figure img {
     margin-right: 15px;
 }
 
-.btn-right{
+.btn-right {
     margin-right: 50px;
 }
 
@@ -60,18 +61,25 @@ a img {
     font-size: 1.3rem;
 }
 
-#navbarNav{
-    justify-content:flex-end; 
+#navbarNav {
+    justify-content: flex-end;
 }
 
+.poke-selec div img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 11px;
+}
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .container-up {
         height: 200px;
     }
+
     .container-down {
         height: 200px;
     }
+
     .container-main {
         height: 325px;
     }
@@ -79,11 +87,45 @@ a img {
     .galar {
         border-bottom: 2px solid white;
     }
-   
+
+    .title-desktop {
+        display: none;
+    }
+
+    .col-2 {
+        display: none;
+    }
 }
 
-@media (min-width: 768px){
-.container-dropdown{
-    display: none;
-}
+
+@media (min-width: 768px) {
+    .container-dropdown {
+        display: none;
+    }
+
+    .title-mobile {
+        display: none;
+    }
+
+    .title-desktop {
+        padding: 10px 0;
+    }
+
+    .text-down {
+        padding-top: 10px;
+        padding-bottom: 80px;
+    }
+
+    .btn-sm {
+        padding: .40rem 1.0rem;
+        font-size: 1.1rem;
+        border-radius: 0.4rem;
+    }
+
+    .img-pokemon{
+        width: 350px;
+        height: 350px;
+    }
+
+
 }
