@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Kaisei Opti', serif;
+    overflow-x: hidden;
 }
 
 .color-up-down  {
@@ -50,13 +51,18 @@ a img {
 
 .color-nav {
     background-color: var(--color-navbar);
+    position: sticky;
+    top: 0;
 }
 
 #nav-ul .nav-item-color {
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
+#navbarNav{
+    justify-content:flex-end; 
+}
 
 
 @media (max-width: 768px){
