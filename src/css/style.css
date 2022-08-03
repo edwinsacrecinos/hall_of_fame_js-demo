@@ -23,11 +23,7 @@ body {
     display: inline;
 }
 
-#selectionPokemon {
-    border-radius: 15px;
-    width: 65%;
-    line-height: 1;
-}
+
 
 figure img {
     width: 175px;
@@ -84,9 +80,6 @@ a img {
         height: 200px;
     }
 
-    .container-main {
-        height: 325px;
-    }
 
     .galar {
         border-bottom: 2px solid white;
@@ -96,9 +89,7 @@ a img {
         display: none;
     }
 
-    .col-2 {
-        display: none;
-    }
+
 }
 
 
