@@ -133,3 +133,99 @@ a img {
 
 
 }
+
+/* COLORS TYPE */
+.fire_p{
+    background: red;
+    color: white;
+}
+
+.water_p{
+    background: blue;
+    color: white;
+}
+
+.fly_p{
+    background: skyblue;
+    color: white;
+}
+
+.bug_p{
+    background: greenyellow;
+    color: white;
+}
+
+.grass_p{
+    background: green;
+    color: white;
+}
+
+.normal_p{
+    background: gray;
+    color: white;
+}
+
+.electric_p{
+    background: yellow;
+    color: white;
+}
+
+.ice_p{
+    background: #66CCFF;
+    color: white;
+}
+
+.fighting_p{
+    background: orange;
+    color: white;
+}
+
+.poison_p{
+    background: purple;
+    color: white;
+}
+
+.ground_p{
+    background: burlywood;
+    color: white;
+}
+
+.spychic_p{
+    background: palevioletred;
+    color: white;
+}
+
+.rock_p{
+    background: #B9A966;
+    color: white;
+}
+
+.ghost_p{
+    background: #6667BC;
+    color: white;
+}
+
+.dragon_p{
+    background: #7766ED;
+    color: white;
+}
+
+.dark_p{
+    background: brown;
+    color: white;
+}
+
+.steel_p{
+    background: #AAAABB;
+    color: white;
+}
+
+.fairy_p{
+    background: violet;
+    color: white;
+}
+
+.none_p {
+    background: white;
+    color: black !important ;
+}
