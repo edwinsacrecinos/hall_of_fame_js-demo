@@ -71,6 +71,10 @@ a img {
     margin-bottom: 11px;
 }
 
+.btn-color{
+    background: white !important;
+}
+
 @media (max-width: 768px) {
     .container-up {
         height: 200px;
